@@ -21,7 +21,7 @@ finding the contraction sequence, and the Calculation time represents the time s
 
 The files with :code:`_cap_30` suffix record the computation where the O(n^2) greedy algorithm was used for finding the contraction sequence, while
 those without record the computation where the O(n^3) greedy algorithm was used. The method for computing the Jones polynomial, using the latest copy
-of `spherogram<https://github.com/Shakugannotorch/Spherogram>`_ , is::
+of `spherogram <https://github.com/Shakugannotorch/Spherogram>`_ , is::
 
     snappy.Link.colored_jones_polynomial(n, timed=False, min_long_cap=None)
 
